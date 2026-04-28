@@ -1,0 +1,50 @@
+{
+  "accuracy": 0.9982046678635548,
+  "macro_f1": 0.9983289276308396,
+  "weighted_f1": 0.9982045450512187,
+  "auc_macro": 0.9999964392536675,
+  "per_class": {
+    "anxiety": {
+      "precision": 1.0,
+      "recall": 0.9882,
+      "f1-score": 0.9941,
+      "support": 85.0
+    },
+    "bipolar": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 85.0
+    },
+    "depression": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 86.0
+    },
+    "neutral_wellness": {
+      "precision": 0.9885,
+      "recall": 1.0,
+      "f1-score": 0.9942,
+      "support": 86.0
+    },
+    "ocd": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 86.0
+    },
+    "ptsd": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 86.0
+    },
+    "suicidal_ideation": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 43.0
+    }
+  }
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "input_text": "I've been thinking that everyone would be better off without me. I've written notes.",
+    "predicted_category": "suicidal_ideation",
+    "confidence": 0.7995,
+    "all_probabilities": {
+      "suicidal_ideation": 0.7995,
+      "depression": 0.1719,
+      "ocd": 0.0069,
+      "bipolar": 0.0068,
+      "neutral_wellness": 0.0053,
+      "anxiety": 0.0052,
+      "ptsd": 0.0044
+    },
+    "crisis_assessment": {
+      "is_crisis": true,
+      "severity": "HIGH",
+      "rule_triggered": true,
+      "ml_probability": 0.7995,
+      "recommendation": "IMMEDIATE: Contact crisis line (988 in US) or emergency services."
+    },
+    "timestamp": "2026-04-28T23:50:50.744660"
+  },
+  {
+    "input_text": "Had a great therapy session today. Finally feel like things might get better.",
+    "predicted_category": "neutral_wellness",
+    "confidence": 0.8746,
+    "all_probabilities": {
+      "neutral_wellness": 0.8746,
+      "suicidal_ideation": 0.0623,
+      "depression": 0.0267,
+      "ptsd": 0.0184,
+      "anxiety": 0.0086,
+      "bipolar": 0.0053,
+      "ocd": 0.0042
+    },
+    "crisis_assessment": {
+      "is_crisis": false,
+      "severity": "LOW",
+      "rule_triggered": false,
+      "ml_probability": 0.0623,
+      "recommendation": "Monitor; encourage self-care resources."
+    },
+    "timestamp": "2026-04-28T23:50:50.746963"
+  },
+  {
+    "input_text": "Can't stop washing my hands. Done it 30 times today. Skin is raw.",
+    "predicted_category": "anxiety",
+    "confidence": 0.4557,
+    "all_probabilities": {
+      "anxiety": 0.4557,
+      "ocd": 0.2553,
+      "neutral_wellness": 0.1078,
+      "suicidal_ideation": 0.0699,
+      "ptsd": 0.0526,
+      "bipolar": 0.0305,
+      "depression": 0.0281
+    },
+    "crisis_assessment": {
+      "is_crisis": false,
+      "severity": "LOW",
+      "rule_triggered": false,
+      "ml_probability": 0.0699,
+      "recommendation": "Monitor; encourage self-care resources."
+    },
+    "timestamp": "2026-04-28T23:50:50.749222"
+  },
+  {
+    "input_text": "The nightmares are back. Three years since the accident and I'm still not free.",
+    "predicted_category": "ptsd",
+    "confidence": 0.9466,
+    "all_probabilities": {
+      "ptsd": 0.9466,
+      "bipolar": 0.0221,
+      "depression": 0.0098,
+      "ocd": 0.0074,
+      "suicidal_ideation": 0.0067,
+      "neutral_wellness": 0.004,
+      "anxiety": 0.0034
+    },
+    "crisis_assessment": {
+      "is_crisis": false,
+      "severity": "LOW",
+      "rule_triggered": false,
+      "ml_probability": 0.0067,
+      "recommendation": "Monitor; encourage self-care resources."
+    },
+    "timestamp": "2026-04-28T23:50:50.751432"
+  },
+  {
+    "input_text": "Spending spree again. Bought a car I can't afford. The high is wearing off.",
+    "predicted_category": "bipolar",
+    "confidence": 0.4571,
+    "all_probabilities": {
+      "bipolar": 0.4571,
+      "ptsd": 0.2289,
+      "suicidal_ideation": 0.1894,
+      "depression": 0.0383,
+      "anxiety": 0.0373,
+      "ocd": 0.0345,
+      "neutral_wellness": 0.0146
+    },
+    "crisis_assessment": {
+      "is_crisis": false,
+      "severity": "LOW",
+      "rule_triggered": false,
+      "ml_probability": 0.1894,
+      "recommendation": "Monitor; encourage self-care resources."
+    },
+    "timestamp": "2026-04-28T23:50:50.753643"
+  }
+]

@@ -691,7 +691,7 @@ def main():
     print(f"  → Dataset shape: {df.shape}")
     print(f"  → Label distribution:\n{df['label'].value_counts().to_string()}")
 
-    output_dir = "/mnt/user-data/outputs"
+    output_dir = "./outputs"
     os.makedirs(output_dir, exist_ok=True)
 
     plot_class_distribution(df, f"{output_dir}/class_distribution.png")

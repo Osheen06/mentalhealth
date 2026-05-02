@@ -14,4 +14,4 @@ classification of social media posts.
 pip install scikit-learn scipy nltk matplotlib seaborn pandas numpy
 
 ## Run
-python mental_health_sentiment_analyzer.py
+python3 -m streamlit run app.py
